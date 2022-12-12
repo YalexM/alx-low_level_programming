@@ -1,2 +1,1 @@
-0-preprocessor.
-1-compiler. 
+ 6-size.c 
