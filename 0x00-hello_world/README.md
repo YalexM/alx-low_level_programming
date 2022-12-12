@@ -1,1 +1,2 @@
-C - Hello, World 
+0-preprocessor.
+1-compiler. 
