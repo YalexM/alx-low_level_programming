@@ -2,7 +2,7 @@
 
 /**
  * _puts - this is the function that puts
- * @str: this is input os string
+ * @str: this is input of string
  *
  */
 
