@@ -2,10 +2,15 @@
 #include <stdio.h>
 
 /**
- * reset_t0_89 -> a function to update the reference of a pointer
- * @n: pointer to n to be updated
+ * reset_t0_89 - function that takes a pointer to an int as parameter and
+ * updates that value it points to to 98.
+ *  @n: this is input
  */
+
 void reset_to_98(int *n)
 {
 	*n = 98;
+	printf("n=%d\n", n);
+	reset_to_98(&n);
+	printf("n=%d\n", n);
 }

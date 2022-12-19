@@ -5,7 +5,7 @@
  * @a:the first input
  * @b:the second input
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 int tmp;
 tmp = *a;
