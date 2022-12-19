@@ -3,7 +3,7 @@
 
 /**
  * reset_t0_89 -> a function to update the reference of a pointer
- * @n: this is entry
+ * @n: pointer to n to be updated
  *
  */
 void reset_to_98(int *n);
