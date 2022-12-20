@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<unintd.h>
+#include<unistd.h>
 
 /**
  * main - kntry pint
