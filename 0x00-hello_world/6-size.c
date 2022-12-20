@@ -5,6 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 print("size of a char: %lu bytes(s)\n", sizeof(char));
