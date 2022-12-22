@@ -15,14 +15,15 @@ int index;
 int dest_len;
 index = 0;
 dest_len = 0;
-while (dest[index++] != '\0')
+while (dest[index] != '\0')
 {
-	dest_len++;
+	index++;
 }
 while (dest_len < n && src[dest_len] != '\0')
 {
 	dest[dest_len++] = src[index];
 index++;
+dest_len++;
 }
 dest[index] = '\0';
 return (dest);
