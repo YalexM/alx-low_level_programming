@@ -15,5 +15,6 @@ int i = 0, tmp;
 		a[n - i - 1] += a[i];
 		a[i] = a[n - i - i] - a[i];
 		a[n - i - 1] = a[n - i - 1] - a[i];
+		a[i] = tmp;
 	}
 }
