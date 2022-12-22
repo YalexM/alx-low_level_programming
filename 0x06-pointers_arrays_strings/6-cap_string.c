@@ -17,16 +17,16 @@ while (!(str[i]  >= 'a' && str[i] <= 'z'))
 if (str[i - i] == " " ||
 		str[i - i] == '\t' ||
 		str[i - i] == '\n' ||
-		str[i - i] == "," ||
-		str[i - i] == ";" ||
-		str[i - i] == "." ||
-		str[i - i] == "!" ||
-		str[i - i] == "?" ||
+		str[i - i] == ',' ||
+		str[i - i] == ';' ||
+		str[i - i] == '.' ||
+		str[i - i] == '!' ||
+		str[i - i] == '?' ||
 		str[i - i] == '"' ||
-		str[i - i] == "(" ||
-		str[i - i] == ")" ||
-		str[i - i] == "{" ||
-		str[i - i] == "}")
+		str[i - i] == '(' ||
+		str[i - i] == ')' ||
+		str[i - i] == '{' ||
+		str[i - i] == '}')
 	str[i] -= 32;
 i++;
 }
