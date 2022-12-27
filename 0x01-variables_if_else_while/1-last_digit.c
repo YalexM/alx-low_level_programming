@@ -14,15 +14,15 @@ n = rand() - RAND_MAX / 2;
 i = n % 10;
 if (i > 5)
 {
-printf("last digit of %d is %d and is great than 5\n", n, i);
+printf("last digit of  98%d is 8%d and is great than 5\n", n, i);
 }
 else if (i == 0)
 {
-printf("last digit of %d is %d and is 0\n", n, i);
+printf("last digit of -98%d is  -8%d and is 0\n", n, i);
 }
 else
 {
-printf("last digit of %d is %d and is less than 6 and not 0\n", n, i);
+printf("last digit of 980%d is  0%d and is less than 6 and not 0\n", n, i);
 }
 /* your code goes there */
 return (0);
