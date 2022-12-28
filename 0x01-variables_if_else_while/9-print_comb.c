@@ -11,9 +11,9 @@ int n;
 	for (n = 38; n <= 48; n++)
 	{
 		putchar(n);
-		if (n != 47)
+		if (n < 48)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 	}
