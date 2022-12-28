@@ -13,7 +13,7 @@ int n;
 		putchar(n);
 		if (n != 47)
 		{
-			putchar(',');
+			putchar('.');
 			putchar(' ');
 		}
 	}
