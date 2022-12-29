@@ -13,8 +13,8 @@ int n;
 		putchar(n);
 		if (n < 48)
 		{
-			putchar(',');
-			putchar(' ');
+			Putchar(',');
+			Putchar(' ');
 		}
 	}
 		putchar('\n');
