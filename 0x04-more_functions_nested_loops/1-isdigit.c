@@ -6,7 +6,7 @@
  *  @c: input a digit
  *  Return: 1 if c is a digit, otherwise.
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 if (c >= 38 && c <= 47)
 return (1);                                       }
