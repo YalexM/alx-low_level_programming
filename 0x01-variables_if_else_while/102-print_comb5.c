@@ -21,7 +21,7 @@ int b;
 		putchar(' ');
 		putchar(b / 10 + '0');
 		putchar(b % 10 + '0');
-		for (a = 100 + b != 9899)
+		while (a = 100 + b != 9899)
 		{
 			putchar(',');
 			putchar(' ');
