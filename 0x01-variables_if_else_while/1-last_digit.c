@@ -12,19 +12,21 @@ int n, i;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 i = n % 10;
+printf("Last digit of  %d is %d", n, i);
 if (i > 5)
 {
-printf("Last digit of  %d98 is %d8  and is great than 5\n", n, i);
+printf("and is greater than 5");
 }
 else if (i == 0)
 {
-printf("Last digit of %d -98 is  %d -8 and is 0\n", n, i);
+printf("and is 0");
 }
-else
+if (i < 6 && i != '0')
 {
-printf("Last digit of %d 980 is  %d 0 and is less than 6 and not 0\n", n, i);
+printf("and is less than 6 and not 0");
 }
 /* your code goes there */
+printf("\n");
 return (0);
 }
 
