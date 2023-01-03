@@ -16,6 +16,6 @@ a = 0;
 	{
 		*(s + a) = b;
 		a++;
-		return (s);
+		return (0);
 	}
 }
