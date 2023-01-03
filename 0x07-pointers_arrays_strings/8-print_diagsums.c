@@ -9,7 +9,7 @@
 
 void print_diagsums(int *a, int size)
 {
-int i, sumdiagonla1, sumdiagonal2;
+int i, sumdiagonla1 = 0, sumdiagonal2 = 0;
 	for (i = 0; i < size; i++)
 	{
 		sumdiagonla1 += a[i];
