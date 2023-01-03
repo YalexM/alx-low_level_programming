@@ -9,13 +9,12 @@
 
 void print_diagsums(int *a, int size)
 {
-int i, sumdiagonla1 = 0, sumdiagonal2 = 0;
-	for (i = 0; i < size; i++)
-	{
-		sumdiagonla1 += a[i];
-		a += size;
+int i, size1, sum1 = 0, sum2 = 0;
+size1 = ( size * size) -1;
+for (i = 0; i <= size; i = i + (size + 1))
+{
+		sum1 = sum1 + a[i];
 	}
-	a -= size;
 	for (i = 0; i < size; i++)
 	{
 		sumdiagonal2 += a[i];
