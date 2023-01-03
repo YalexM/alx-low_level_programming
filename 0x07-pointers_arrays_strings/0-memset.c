@@ -8,10 +8,9 @@
  * Return: new string.
  */
 
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, void b, unsigned int n)
 {
 int a;
-a = 0;
 	for (a = 0; n > 0; a++)
 	{
 		*s[a] = b;
