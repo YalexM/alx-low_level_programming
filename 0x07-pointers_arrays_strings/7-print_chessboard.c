@@ -16,7 +16,7 @@ int tmp, index;
 	{
 		_putchar(a[tmp][index]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 	}
 }
 
