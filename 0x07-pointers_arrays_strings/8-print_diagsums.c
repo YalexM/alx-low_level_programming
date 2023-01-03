@@ -5,7 +5,6 @@
  * print_diagsums - prints sum of two diagonals of a squere.
  * @a: pointer of array.
  * @size: size of array.
- * Return: Always 0.
  */
 
 void print_diagsums(int *a, int size)
@@ -23,5 +22,4 @@ int i, sumdiagonla1, sumdiagonal2;
 		a -= size;
 	}
 	print("%d, %d\n", sumdiagonla1, sumdiagonal2);
-	return (0);
 }
