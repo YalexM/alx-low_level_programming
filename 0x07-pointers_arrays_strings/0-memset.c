@@ -18,4 +18,5 @@ a = 0;
 		n--;
 		return (s);
 	}
+	return (0);
 }
