@@ -3,7 +3,6 @@
 /**
  * _puts_recursion - prints a string, followed by a new line.
  * @s: the string pointer to be memory fill.
- * Return: void.
  */
 
 void _puts_recursion(char *s)
@@ -15,5 +14,4 @@ void _puts_recursion(char *s)
 	}
 	else
 		_putchar('\n');
-return (0);
 }
